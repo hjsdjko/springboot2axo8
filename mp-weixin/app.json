@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-recharge/pay-confirm",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/shop-order/logistics",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/meishidianpu/list",
+    "pages/meishidianpu/add-or-update",
+    "pages/meishidianpu/detail",
+    "pages/caipinfenlei/list",
+    "pages/caipinfenlei/add-or-update",
+    "pages/caipinfenlei/detail",
+    "pages/biaoqian/list",
+    "pages/biaoqian/add-or-update",
+    "pages/biaoqian/detail",
+    "pages/caipinxinxi/list",
+    "pages/caipinxinxi/add-or-update",
+    "pages/caipinxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/aboutus/list",
+    "pages/aboutus/add-or-update",
+    "pages/aboutus/detail",
+    "pages/systemintro/list",
+    "pages/systemintro/add-or-update",
+    "pages/systemintro/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的周边美食推荐系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#DDDDDD",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "white",
+    "backgroundColor": "#20AA9A",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meishidianpu/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "美食店铺"
+      },
+      {
+        "pagePath": "pages/caipinxinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "菜品信息"
+      },
+      {
+        "pagePath": "pages/shop-cart/shop-cart",
+        "iconPath": "static/tabs/cart.png",
+        "selectedIconPath": "static/tabs/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
